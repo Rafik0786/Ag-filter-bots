@@ -43,7 +43,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rafikgouri50:zsVxS0xGepGZ69Dc@cluster0.caaxfxu.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
+DATABASE_NAME = environ.get('DATABASE_NAME', "rafikgouri50")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
 
 # Others
