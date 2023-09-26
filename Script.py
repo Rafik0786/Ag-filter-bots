@@ -128,7 +128,7 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Anjel Neha
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Md Rafik Gouri
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a t.me/rgsearchmovie'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
@@ -166,7 +166,7 @@ Owner Will Update The Movie Within 24Hour"""
 ♦️ <b>User ID</b> : `{}` """
 
     CAPTION = """
-<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡ VJ Bots⚡](https://t.me/VJ_Bots)</b>"""
+<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡ Ag bots ⚡](https://t.me/rgsearchmovie)</b>"""
 
     IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title}"""
 
