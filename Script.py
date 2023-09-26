@@ -4,9 +4,9 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 If You Want To Create This Type Of Bot Contact Us
 
-🔗 For More Information Contact @VJbots_bot 🔗</b>"""
+🔗 For More Information Contact @rgsearchmovie 🔗</b>"""
 
-    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/rgsearchmovie><b>Movie Search Bot</b></a>\n
 👑 Oᴡɴᴇʀ : <a href=https://t.me/rgsearchmovie><b>🏆 Rafik 🏆</b></a>\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/rgsearchmovie><b>⚡ Ag bots⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
