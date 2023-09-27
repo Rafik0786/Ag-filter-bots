@@ -47,7 +47,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "rafikgouri50")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AGbots')
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://adrinolinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '92e45da7e8b1afa4ce12ccfb2546ea0248cff640')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
