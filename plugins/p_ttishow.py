@@ -39,13 +39,13 @@ async def save_group(bot, message):
             return
         buttons = [
             [
-                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
+                InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/rgsearchmovie')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
+                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://t.me/rgsearchmovie'),
             ],
             [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/anjel_neha')
+                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/rgsearchmovie')
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -64,7 +64,7 @@ async def save_group(bot, message):
                 temp.MELCOW['welcome'] = await message.reply_photo(
                 photo="https://telegra.ph/file/dc2438eb0094b7301f2e0.jpg",                                               
                                                  caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nʏᴏᴜ ᴄᴀɴ ꜰɪɴᴅ ᴍᴏᴠɪᴇꜱ / ꜱᴇʀɪᴇꜱ / ᴀɴɪᴍᴇꜱ ᴇᴛᴄ. ꜰʀᴏᴍ ʜᴇʀᴇ. ᴇɴᴊᴏʏ😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ›› @VJ_Bots</b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🍿 Update Channel 🍿', url='http://t.me/vj_bots') ] ] )
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🍿 Update Channel 🍿', url='https://t.me/rgsearchmovie') ] ] )
                 )
 
 
