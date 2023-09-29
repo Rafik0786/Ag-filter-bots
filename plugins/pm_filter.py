@@ -262,7 +262,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Linkl")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/how_to_donlod")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -557,10 +557,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         protect_content=True if ident == "filep" else False,
                         reply_markup=IInlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_Movie_Request'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/agtechsupport'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/agupdete')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Anjel_neha")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="https://t.me/agtechowner")
                          ]
                         ]
                     )
@@ -604,10 +604,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_movie_request'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/agtechsupport'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/agupdete')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Anjel_neha")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="https://t.me/agtechowner")
                          ]
                         ]
                     )
@@ -909,15 +909,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🏆 Group 🏆', url='https://t.me/Neha_movie_request'),
+                '🏆 Group 🏆', url='https://t.me/agtechsupport'),
             InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/VJ_bots')
+                '📣 Updates 📣', url='https://t.me/agupdete')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
             InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Tech_VJ')
+                                 url=f'https://www.youtube.com/@TechAg-')
         ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -995,8 +995,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_botz'),
-            InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
+            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/agtechsupport'),
+            InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/agupdete')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -1400,7 +1400,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Linkl")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/how_to_donlod")
     ])
 
     if offset != "":
